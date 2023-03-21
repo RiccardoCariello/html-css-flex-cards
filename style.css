@@ -11,22 +11,40 @@ body {
     width: 80%
 }
 
-.flex {
+
+.flex2 {
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: space-between;
     flex-direction: row;
-    
-    
-    
-
+   
 }
 
+.flex1 {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 .divstats {
     height: 150px;
     width: 450px;
-    background-color: red;
+    background-color: black;
     margin: 20px;
+    color: white;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: red;
+    margin-top: 40px;
 }
