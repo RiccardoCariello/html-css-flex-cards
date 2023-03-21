@@ -11,3 +11,22 @@ body {
     width: 80%
 }
 
+.flex {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row;
+    
+    
+    
+
+}
+
+
+.divstats {
+    height: 150px;
+    width: 450px;
+    background-color: red;
+    margin: 20px;
+}
